@@ -1,0 +1,286 @@
+:root{
+    --color-bg-m: #482366;
+    /* Formula dentro de CSS para cambiar color automaticamente en varias secciones de la pagina */
+}
+
+body{
+    font-family: 'Source Sans Pro', sans-serif;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.header{
+    background-color: var(--color-bg-m);
+    display: block;
+    justify-content: space-between;
+}
+
+.header li{
+    list-style-type: none;
+}
+
+.header a{
+    font-size: 20px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+    padding: 10px;
+}
+
+.header a:hover{
+    color: rgb(218, 255, 8);
+}
+
+.Menu{
+    display: flex;
+    justify-content: flex-end;
+    /* Esto cambia el color automaticamente segun lo que seleccione arriba */
+    background-color: var(--color-bg-m);
+    height: 25px;
+    padding: 25px;
+}
+
+.contenedor-hero{
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.caja-texto{
+    text-align: justify;
+    padding: 20px;
+}
+
+.Content-Image{
+    margin: 10px;
+    display: flex;
+    width: 300px;
+    padding-right: 20px;
+}
+
+.foto{
+    width: 100%;
+}
+
+.Saludo{
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+h1{
+    font-size: 80px;
+    font-weight: 600;
+    margin: 0;
+    padding: 10px;
+    font-family: 'Source Sans Pro', sans-serif;
+    color: rgba(0, 0, 0, .2);
+    background: center / cover url('universe.jpg') no-repeat;
+    background-clip: text;
+    -webkit-background-clip: text;
+    justify-content: center;
+}
+
+h3{
+    font-size: 24px;
+    font-weight: 600;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.proyecto{
+    background-color: var(--color-bg-m);
+    color: white;
+    padding: 20px;
+    text-align: left;
+}
+
+.proyecto a {
+    font-size: 22px;
+    color: white;
+    text-decoration: none;
+}
+
+.proyecto a:hover{
+    color: rgb(218, 255, 8); 
+}
+
+.juegos{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.TicTacToe{
+    width: 300px;
+    height: 300px;
+    background-image: url('CaratulasJuegos/TicTacToe.JPG');
+    background-size: 200px 200px;
+    background-repeat: no-repeat;
+    background-position: center;
+    text-align: center;
+    line-height: 1em;
+}
+
+.PiedraPapelTijera{
+    width: 300px;
+    height: 300px;
+    background-image: url('CaratulasJuegos/PiedraPapelTijera.JPG');
+    background-size: 200px 200px;
+    background-repeat: no-repeat;
+    background-position: center;
+    text-align: center;
+    line-height: 1em;
+}
+
+.MemoryGame{
+    width: 300px;
+    height: 300px;
+    background-image: url('CaratulasJuegos/MemoryGame.JPG');
+    background-size: 200px 200px;
+    background-repeat: no-repeat;
+    background-position: center;
+    text-align: center;
+    line-height: 1em;
+}
+
+.Snake{
+    width: 300px;
+    height: 300px;
+    background-image: url('CaratulasJuegos/Snake.JPG');
+    background-size: 200px 200px;
+    background-repeat: no-repeat;
+    background-position: center;
+    text-align: center;
+    line-height: 1em;
+}
+
+.Candycrush{
+    width: 300px;
+    height: 300px;
+    background-image: url('CaratulasJuegos/Candycrush.JPG');
+    background-size: 200px 200px;
+    background-repeat: no-repeat;
+    background-position: center;
+    text-align: center;
+    line-height: 1em;
+}
+
+.QuienQuiereSerMillonario{
+    width: 300px;
+    height: 300px;
+    background-image: url('CaratulasJuegos/QQSM.JPG');
+    background-size: 200px 200px;
+    background-repeat: no-repeat;
+    background-position: center;
+    text-align: center;
+    line-height: 1em;
+}
+
+.Contenedor-Dibujos{
+    margin: 10px;
+    padding: 10px;
+    justify-content: center;
+    text-align: center;
+}
+
+.Container{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 60px;
+}
+
+.h3-dibujo{
+    color: #6f4a8e;
+}
+
+.boton-dibujo{
+    background: transparent;
+    border: 2px solid #6f4a8e;
+    border-radius: 6px;
+    border: solid;
+    color: #6f4a8e;
+    padding: 4px 8px;
+    text-align: center;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.contact {
+    background-color: var(--color-bg-m);
+    color: white;
+    height: 160px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.h3-contacto{
+    margin-left: 30px;
+}
+
+.social-link {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    margin: 0 10px;
+    background-size: 50px 50px;
+    
+}
+
+.social{
+    margin-right: 30px;
+}
+
+.social-link.twitter {
+    background-image: url('images/twitter.svg');
+}
+
+.social-link.github {
+    background-image: url('images/github.svg');
+}
+
+.social-link.instagram {
+    background-image: url('images/instagram.svg');
+}
+    
+.form-email input{
+    border-color: #6f4a8e;
+    border-style: solid;
+    border-radius: 5px;
+    padding: 5px 20px 5px 25px;
+    background-image: url('images/envelope.svg');
+    background-size: 15px 15px;
+    background-repeat: no-repeat;
+    background-position-y: center;
+    background-position-x: 5px;
+    margin-left: 30px;
+}
+
+.form-email button{
+    display: block;
+    margin-top: 10px;
+    background: white;
+    color: #6f4a8e;
+    padding: 5px 0;
+    border-radius: 5px;
+    width: 100px;
+    margin-top: 10px;
+    margin-left: 30px;
+    border: none;
+}
+
+.form-email h3{
+    font-family: 'Source Sans Pro', sans-serif; 
+}
+
+.container{
+    width: 1200px;
+    margin: 0 auto;
+    display: inherit;
+    justify-content: inherit;
+    align-items: inherit;
+    height: inherit;
+    flex-wrap: inherit;
+}
+

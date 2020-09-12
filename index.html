@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mery De Freitas</title>
+    <link rel="stylesheet" href="style.css"></link>
+    <link rel="icon" type="image/png" href="moon.png">
+    <link href="https://fonts.googleapis.com/css2?family=Fjalla+One&family=Source+Sans+Pro&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<section>
+    <header class="header">
+            <nav class="Menu">
+            <li><a href="#proyecto">Proyectos</a></li>
+            <li><a href="#dibujos">Dibujos</a></li>
+            <li><a href="#contacto">Redes Sociales</a></li>
+            </nav>
+        </header>
+    <div class="container">
+                <div class="Saludo">
+                <h1>Hola, soy Mery</h1>
+            </div>
+    </div>
+</section>
+
+<section class="contenedor-hero">
+    <div class="container">
+        <div class="caja-texto">
+        <p>De niña siempre fui muy estudiosa y siempre tuve mucha curiosidad por temas muy variados 
+                y por eso termine leyendo cualquier tipo de cosas, ya sea sobre politica internacional, historia, economia, arte, cultura, etc.</p>
+        <p>Si revisas mis redes sociales te darás cuenta que mi mente es un arroz con mango (Como decimos en Venezuela) y que siempre tengo una opinión sobre algo (Que no siempre son acertadas).</p>
+        <p>Mi hobbie de siempre ha sido dibujar, es lo unico que me relaja y me hace trasladar la mente a otro mundo.</p>
+        <p>Recientemente me interesé en la programación, aqui encontrarás proyectos muy básicos pero que para mi son importantes porque me han abierto la puerta a este nuevo mundo.</p>
+        </div>
+        <div class="Content-Image">
+            <div class="foto">
+                <img src="Foto.JPG" width="280">
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="proyecto" class="proyecto">
+    <div class="container">
+        <h3>Proyectos:</h3>
+        <p>Los Juegos de Javascript me han ayudado a divertirme y al mismo tiempo aprender:</p><br>
+        <div class="juegos">
+        <div class="TicTacToe">
+            <a href="Tic-Tac-Toe/Tic Tac Toe.html" target="_blank">Tic Tac Toe</a><br>
+        </div>
+        <div class="PiedraPapelTijera">
+            <a href="Piedra, papel o tijera/Piedra,papel,tijera.html" target="_blank">Piedra, Papel o Tijera</a><br>
+        </div>
+        <div class="MemoryGame">
+          <a href="Memoria/Memory Game.html" target="_blank">Memory Game</a><br>
+        </div>
+        <div class="Snake">
+        <a href="Snake/Snake.html" target="_blank">Snake Game</a><br>
+        </div>
+        <div class="Candycrush">
+            <a href="Candy Crush/Candycrush.html" target="_blank">Candy Crush</a><br>
+            </div>
+        <div class="QuienQuiereSerMillonario">
+            <a href="Quien quiere ser Millonario/Trivia.html" target="_blank">¿Quien quiere ser millonario?</a><br>
+            </div>
+    </div>
+    </div>
+</section>
+
+<section id="dibujos" class="Contenedor-Dibujos">
+    <div class="container">
+        <h3 class="h3-dibujo">Dibujos más recientes: </h3>
+        <input type="button" class="boton-dibujo" value="<<" onclick="adelante()">
+        <img src= "Dibujos/Captura1.JPG" width="350" height="400" id="Captura">
+        <input type="button" class="boton-dibujo" value=">>" onclick="atras()">
+    </div>
+    </div>
+</section>
+
+<section id="contacto" class="contact">
+    <div class="container">
+        <form action="/suscripcion/" class="form-email"> 
+            <h3 class="h3-contacto">¡Trabajemos Juntos!</h3>
+            <input type="text" placeholder="Déjame tu email" id="email">
+            <button>Enviar</button>
+        </form>
+        <diV class="social">
+            <a href="https://twitter.com/MeryDeFreitas" class="social-link twitter" target="_blank"></a>
+            <a href="https://github.com/MeryDeFreitas" class="social-link github" target="_blank"></a>
+            <a href="https://www.instagram.com/merydefreitas/" class="social-link instagram" target="_blank"></a>
+        </diV>
+    </div>
+</section>
+
+</body>
+<script src="index.js"></script>
+</html>

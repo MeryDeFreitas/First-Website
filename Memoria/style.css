@@ -1,0 +1,33 @@
+.grid {
+    /* El contenedor es flexible al padre (En este caso es al body) */
+    display:flex;
+    /* Se usa el wrap para contener y evitar que las cosas se caigan */
+    flex-wrap: wrap;
+    height: 300px;
+    width: 400px;
+}
+
+body{
+    background-color: white;
+}
+h1{
+    font-family: Lucida Sans;
+    text-align: center;
+    padding: 20px;
+    color: black;
+    
+}
+
+div{
+    font-family: Lucida Sans;
+    text-align: center;
+    padding: 0%;
+    color: black;
+}
+
+h3{
+    font-family: Lucida Sans;
+    text-align: center;
+    padding: 20px 20px 0 20px;
+    color: black
+}
