@@ -174,6 +174,17 @@ h3{
     line-height: 1em;
 }
 
+.BabyYoda{
+    width: 300px;
+    height: 300px;
+    background-image: url('CaratulasJuegos/BabyYoda.JPG');
+    background-size: 200px 200px;
+    background-repeat: no-repeat;
+    background-position: center;
+    text-align: center;
+    line-height: 1em;
+}
+
 .Contenedor-Dibujos{
     margin: 10px;
     padding: 10px;
