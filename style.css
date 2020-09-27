@@ -1,6 +1,5 @@
 :root{
     --color-bg-m: #482366;
-    /* Formula dentro de CSS para cambiar color automaticamente en varias secciones de la pagina */
 }
 
 body{
@@ -35,7 +34,6 @@ body{
 .Menu{
     display: flex;
     justify-content: flex-end;
-    /* Esto cambia el color automaticamente segun lo que seleccione arriba */
     background-color: var(--color-bg-m);
     height: 25px;
     padding: 25px;
@@ -78,7 +76,7 @@ body{
 }
 
 h1{
-    font-size: 80px;
+    font-size: 60px;
     font-weight: 600;
     margin: 5px;
     padding: 5px;
@@ -100,9 +98,9 @@ h3{
 .proyecto{
     background-color: var(--color-bg-m);
     color: white;
-    padding: 20px;
     text-align: left;
     font-size: 20px;
+    flex-wrap: wrap;
 }
 
 .proyecto a {
@@ -210,8 +208,6 @@ h3{
 }
 
 .Contenedor-Dibujos{
-    margin: 10px;
-    padding: 10px;
     justify-content: center;
     text-align: center;
 }
@@ -239,15 +235,18 @@ h3{
 .contact {
     background-color: var(--color-bg-m);
     color: white;
-    height: 160px;
-    width: 1600px;
+    height: 170px;
     display: flex;
     align-items: center;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 
-.h3-contacto{
-    margin-left: 30px;
+.Contenedor-formulario{
+    margin: 10px;
+    padding: 10px;
+    padding-left: 40px;
+    /* border: solid 1px red; */
 }
 
 .social-link {
@@ -256,6 +255,7 @@ h3{
     height: 50px;
     margin: 0 10px;
     background-size: 50px 50px;
+    /* border: solid 1px red; */
 }
 
 .social-link.twitter {
@@ -280,6 +280,7 @@ h3{
     background-repeat: no-repeat;
     background-position-y: center;
     background-position-x: 5px;
+    /* border: 1px solid red; */
 }
 
 .form-email button{
@@ -291,7 +292,6 @@ h3{
     border-radius: 5px;
     width: 100px;
     margin-top: 10px;
-    border: none;
 }
 
 .form-email h3{
@@ -299,7 +299,8 @@ h3{
 }
 
 .container{
-    max-width: 1200px;
+    /* border: solid 1px red; */
+    max-width: 1000px;
     margin: 0 auto;
     display: inherit;
     justify-content: inherit;
@@ -307,4 +308,3 @@ h3{
     height: inherit;
     flex-wrap: inherit;
 }
-
