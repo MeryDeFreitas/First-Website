@@ -11,8 +11,9 @@ body{
 
 .header{
     background-color: var(--color-bg-m);
-    display: block;
+    display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 .header li{
@@ -40,39 +41,9 @@ body{
     padding: 25px;
 }
 
-.contenedor-hero{
-    display: flex;
-    flex-wrap: nowrap;
-}
-
-.caja-texto{
-    text-align: justify;
-    padding: 20px;
-    margin: 20px;
-    width: 600px;
-    position: relative;
-    left: 0px;
-}
-
-.Saludo{
-    display: flex;
-    flex-wrap: nowrap;
-    width: 800px;
-}
-
-h1{
-    font-size: 80px;
-    font-weight: 600;
-    margin: 0;
-    padding: 10px;
-    font-family: 'Source Sans Pro', sans-serif;
-    color: rgba(0, 0, 0, .2);
-    background: center / cover url('universe.jpg') no-repeat;
-    background-clip: text;
-    -webkit-background-clip: text;
-    justify-content: center;
-    position: relative;
-    left: 0px;
+.contenedor-foto{
+    margin: 5px;
+    padding: 5px;
 }
 
 .foto{
@@ -82,9 +53,42 @@ h1{
     height: 280px;
     background-repeat: no-repeat;
     border-radius: 50%;
-    position: absolute;
-    right: 250px;
-    bottom: 300px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0;
+    padding: 0;
+}
+
+.contenedor-hero{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.caja-texto{
+    text-align: justify;
+    flex-wrap: wrap;
+    margin: 5px;
+    padding: 5px;
+}
+
+.Saludo{
+    display: flex;
+    flex-wrap: nowrap;
+    width: 600px;
+}
+
+h1{
+    font-size: 80px;
+    font-weight: 600;
+    margin: 5px;
+    padding: 5px;
+    font-family: 'Source Sans Pro', sans-serif;
+    color: rgba(0, 0, 0, .2);
+    background: center / cover url('universe.jpg') no-repeat;
+    background-clip: text;
+    -webkit-background-clip: text;
+    justify-content: center;
+}
 }
 
 h3{
@@ -98,6 +102,7 @@ h3{
     color: white;
     padding: 20px;
     text-align: left;
+    font-size: 20px;
 }
 
 .proyecto a {
@@ -213,6 +218,7 @@ h3{
 
 .h3-dibujo{
     color: #6f4a8e;
+    font-size: 28px;
 }
 
 .boton-dibujo{
@@ -234,6 +240,7 @@ h3{
     background-color: var(--color-bg-m);
     color: white;
     height: 160px;
+    width: 1600px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -249,11 +256,6 @@ h3{
     height: 50px;
     margin: 0 10px;
     background-size: 50px 50px;
-    
-}
-
-.social{
-    margin-right: 30px;
 }
 
 .social-link.twitter {
@@ -278,7 +280,6 @@ h3{
     background-repeat: no-repeat;
     background-position-y: center;
     background-position-x: 5px;
-    margin-left: 30px;
 }
 
 .form-email button{
@@ -290,7 +291,6 @@ h3{
     border-radius: 5px;
     width: 100px;
     margin-top: 10px;
-    margin-left: 30px;
     border: none;
 }
 
@@ -299,7 +299,7 @@ h3{
 }
 
 .container{
-    width: 1200px;
+    max-width: 1200px;
     margin: 0 auto;
     display: inherit;
     justify-content: inherit;
