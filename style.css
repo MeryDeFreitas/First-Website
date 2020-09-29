@@ -86,7 +86,6 @@ h1{
     -webkit-background-clip: text;
     justify-content: center;
 }
-}
 
 h3{
     font-size: 24px;
@@ -97,9 +96,7 @@ h3{
 .proyecto{
     background-color: var(--color-bg-m);
     color: white;
-    text-align: left;
     font-size: 20px;
-    flex-wrap: wrap;
 }
 
 .proyecto a {
@@ -110,12 +107,19 @@ h3{
 
 .proyecto a:hover{
     color: rgb(218, 255, 8); 
+    font-size: 25px;
 }
 
 .juegos{
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
+    height: 300px;
+    position: relative;
+}
+
+.juegos :hover{
+    width: 100%;
+    height: 100%;
+    position: relative;
 }
 
 .TicTacToe{
@@ -127,6 +131,7 @@ h3{
     background-position: center;
     text-align: center;
     line-height: 1em;
+    transition: all 0.6s;
 }
 
 .PiedraPapelTijera{
@@ -138,6 +143,7 @@ h3{
     background-position: center;
     text-align: center;
     line-height: 1em;
+    transition: all 0.6s;
 }
 
 .MemoryGame{
@@ -149,6 +155,7 @@ h3{
     background-position: center;
     text-align: center;
     line-height: 1em;
+    transition: all 0.6s;
 }
 
 .QuienQuiereSerMillonario{
@@ -160,6 +167,7 @@ h3{
     background-position: center;
     text-align: center;
     line-height: 1em;
+    transition: all 0.6s;
 }
 
 .BabyYoda{
@@ -171,6 +179,7 @@ h3{
     background-position: center;
     text-align: center;
     line-height: 1em;
+    transition: all 0.6s;
 }
 
 .Calculadora{
@@ -182,6 +191,7 @@ h3{
     background-position: center;
     text-align: center;
     line-height: 1em;
+    transition: all 0.6s;
 }
 
 .Contenedor-Dibujos{
@@ -212,7 +222,7 @@ h3{
 .contact {
     background-color: var(--color-bg-m);
     color: white;
-    height: 170px;
+    height: 100%;
     display: flex;
     align-items: center;
     justify-content: space-between;
