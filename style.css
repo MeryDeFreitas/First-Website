@@ -320,9 +320,29 @@ h3{
     .header a{
         justify-content: center;
     }
+
+    .proyecto{
+        display: block;
+        background-color: var(--color-bg-m);
+        font-size: 16px;
+    }
+
+    .TicTacToe, .PiedraPapelTijera, .MemoryGame, .QuienQuiereSerMillonario, .BabyYoda{
+        width: auto;
+        font-size: .7em;
+        margin: .4em 0;
+    }
 }
 
 @media screen and (max-width: 480px) {
+    .proyecto{
+        font-size: 12px;
+    }
+    .TicTacToe, .PiedraPapelTijera, .MemoryGame, .QuienQuiereSerMillonario, .BabyYoda{
+        width: auto;
+        font-size: .7em;
+        margin: .4em 0;
+    }
 }
 
 @media screen and (max-width: 320px) {
