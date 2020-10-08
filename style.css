@@ -112,7 +112,7 @@ h3{
 
 .juegos{
     display: flex;
-    height: 300px;
+    height: 100%;
     position: relative;
 }
 
@@ -328,18 +328,6 @@ h3{
     }
     .header a{
         justify-content: center;
-    }
-    .proyecto{
-        display: block;
-        background-color: var(--color-bg-m);
-    }
-    .juegos{
-        display: inline-block;
-    }
-    .TicTacToe, .PiedraPapelTijera, .MemoryGame, .QuienQuiereSerMillonario, .BabyYoda, .Calculadora{
-        width: auto;
-        font-size: .7em;
-        margin: .4em 0;
     }
     .Marco-Dibujo{
         width: auto;
