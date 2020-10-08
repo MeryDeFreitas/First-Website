@@ -71,7 +71,7 @@ body{
 .Saludo{
     display: flex;
     flex-wrap: nowrap;
-    width: 50%;
+    width: 500px;
 }
 
 h1{
@@ -205,7 +205,7 @@ h3{
 }
 
 .Dibujos{
-    width: 40%;
+    width: 30%;
 }
 
 .h3-dibujo{
@@ -310,6 +310,9 @@ h3{
 /* Colocar reglas en el CSS para que cargue estos estilos dependiendo del ancho de la pantalla */
 
 @media screen and (max-width: 1024px) {
+    .container{
+        padding: 0 1em;
+    }
 }
 
 @media screen and (max-width: 767px) {
@@ -317,42 +320,46 @@ h3{
         display: block;
         height: auto;
     }
-
     .header ol{
         display: block;
     }
-
     .header ol li{
         height: 50px;
     }
-
     .header a{
         justify-content: center;
     }
-
     .proyecto{
         display: block;
         background-color: var(--color-bg-m);
         font-size: 16px;
     }
-
     .TicTacToe, .PiedraPapelTijera, .MemoryGame, .QuienQuiereSerMillonario, .BabyYoda{
         width: auto;
         font-size: .7em;
         margin: .4em 0;
     }
-
     .Marco-Dibujo{
         width: auto;
     }
-
     .Dibujos{
         width: 40%;
     }
-
     .Saludo{
-        width: 30%;
+        width: 30px;
         flex-wrap: nowrap;
+    }
+    .contact{
+        height: auto;
+        padding: 1.5em 0;
+        text-align: center;
+        display: block;
+    }
+    .form-email button{
+        margin: 1em auto;
+    }
+    .form-email h3{
+        margin-top: 0;
     }
 }
 
@@ -372,8 +379,20 @@ h3{
         width: 50%;
     }
     .Saludo{
-        width: 30%;
+        width: 30px;
         flex-wrap: nowrap;
+    }
+    .contact{
+        height: auto;
+        padding: 1.5em 0;
+        text-align: center;
+        display: block;
+    }
+    .form-email button{
+        margin: 1em auto;
+    }
+    .form-email h3{
+        margin-top: 0;
     }
 }
 
@@ -389,7 +408,19 @@ h3{
         width: 40%;
     }
     .Saludo{
-        width: 30%;
+        width: 30px;
         flex-wrap: nowrap;
+    }
+    .contact{
+        height: auto;
+        padding: 1.5em 0;
+        text-align: center;
+        display: block;
+    }
+    .form-email button{
+        margin: 1em auto;
+    }
+    .form-email h3{
+        margin-top: 0;
     }
 }
