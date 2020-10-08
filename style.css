@@ -364,6 +364,19 @@ h3{
 }
 
 @media screen and (max-width: 480px) {
+    .header{
+        display: block;
+        height: auto;
+    }
+    .header ol{
+        display: block;
+    }
+    .header ol li{
+        height: 50px;
+    }
+    .header a{
+        justify-content: center;
+    }
     .proyecto{
         font-size: 12px;
     }
@@ -397,6 +410,19 @@ h3{
 }
 
 @media screen and (max-width: 320px) {
+    .header{
+        display: block;
+        height: auto;
+    }
+    .header ol{
+        display: block;
+    }
+    .header ol li{
+        height: 50px;
+    }
+    .header a{
+        justify-content: center;
+    }
     .TicTacToe, .PiedraPapelTijera, .MemoryGame, .QuienQuiereSerMillonario, .BabyYoda{
         width: 15%;
         font-size: .7em;
