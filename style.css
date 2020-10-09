@@ -390,6 +390,7 @@ h3{
     .proyecto{
         display: block;
         background-color: var(--color-bg-m);
+        padding-top: 10px;
     }
     .juegos{
         display: inline-block;
@@ -453,6 +454,7 @@ h3{
         display: block;
         background-color: var(--color-bg-m);
         padding: 1px;
+        padding-top: 10px;
     }
     .juegos{
         display: inline-block;
