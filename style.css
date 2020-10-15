@@ -92,7 +92,7 @@ h1{
 }
 
 h3{
-    font-size: 24px;
+    font-size: 40px;
     font-weight: 600;
     font-family: 'Source Sans Pro', sans-serif;
 }
@@ -101,6 +101,7 @@ h3{
     background-color: var(--color-bg-m);
     color: white;
     font-size: 20px;
+    /* border: 1px solid red; */
 }
 
 .proyecto a {
@@ -114,6 +115,20 @@ h3{
     font-size: 25px;
 }
 
+.cajaProyectos{
+    display: flex;
+    height: 300px;
+    position: relative;
+    padding: 0;
+    /* border: solid 1px red; */
+}
+
+.cajaProyectos :hover{
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
 .juegos{
     display: flex;
     height: 300px;
@@ -124,6 +139,10 @@ h3{
     width: 100%;
     height: 100%;
     position: relative;
+}
+
+.tituloJuegos{
+    margin: 0;
 }
 
 .TicTacToe{
@@ -399,7 +418,7 @@ h3{
         background-color: var(--color-bg-m);
         padding-top: 10px;
     }
-    .juegos{
+    .juegos, .cajaProyectos{
         display: inline-block;
         height: 100%;
     }
@@ -464,7 +483,7 @@ h3{
         padding: 1px;
         padding-top: 10px;
     }
-    .juegos{
+    .juegos, .cajaProyectos{
         display: inline-block;
         height: 100%;
     }
