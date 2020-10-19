@@ -383,232 +383,254 @@ h3{
 /* Colocar reglas en el CSS para que cargue estos estilos dependiendo del ancho de la pantalla */
 
 @media screen and (max-width: 1024px) {
-    .container{
-        padding: 0 1em;
-    }
+.container{
+    padding: 0 1em;
+}
 }
 
 @media screen and (max-width: 767px) {
-    
-    .burger-button{
-        display: block;
-    }
-    .header{
-        display: block;
-        height: auto;
-    }
-    .header ol{
-        display: block;
-    }
-    .header ol li{
-        height: 50px;
-    }
-    .header a{
-        justify-content: center;
-        height: 40px;
-        font-size: 2em;
-        text-decoration: underline;
-        margin-bottom: .5em;
-    }
-    .Menu{
-        position: fixed;
-        background: rgba(99, 18, 124, 0.9);
-        z-index: 3;
-        top: 0;
-        bottom: 0;
-        left: -100vw;
-        width: 100vw;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        transition: .3s;
-        font-size: 13px;
-    }
-    .Menu.is-active{
-        left: 0;
-    } 
-    .contenedor-foto{
-        margin: 5px;
-        padding: 5px;
-        display: flex;
-        justify-content: center;
-    }
-    .Saludo{
-        display: flex;
-        justify-content: center;
-        text-align: center;
-    }
-    .Marco-Dibujo{
-        width: auto;
-    }
-    .Dibujos{
-        width: 40%;
-    }
-    .contact{
-        height: auto;
-        padding: 1.5em 0;
-        text-align: center;
-        display: block;
-    }
-    .form-email button{
-        margin: 1em auto;
-        position: initial;
-    }
-    .form-email h3{
-        margin-top: 0;
-    }
+.burger-button{
+    display: block;
+}
+.header{
+    display: block;
+    height: auto;
+}
+.header ol{
+    display: block;
+}
+.header ol li{
+    height: 50px;
+}
+.header a{
+    justify-content: center;
+    height: 40px;
+    font-size: 2em;
+    text-decoration: underline;
+    margin-bottom: .5em;
+}
+.Menu{
+    position: fixed;
+    background: rgba(99, 18, 124, 0.9);
+    z-index: 3;
+    top: 0;
+    bottom: 0;
+    left: -100vw;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: .3s;
+    font-size: 13px;
+}
+.Menu.is-active{
+    left: 0;
+} 
+.contenedor-foto{
+    margin: 5px;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+}
+.Saludo{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.Marco-Dibujo{
+    width: auto;
+}
+.Dibujos{
+    width: 40%;
+}
+.contact{
+    height: auto;
+    padding: 1.5em 0;
+    text-align: center;
+    display: block;
+}
+.form-email button{
+    margin: 1em auto;
+    position: initial;
+}
+.form-email h3{
+    margin-top: 0;
+}
 }
 
 @media screen and (max-width: 480px) {
-    .header ol li{
-        height: 50px;
-    }
-    .header a{
-        justify-content: center;
-        height: 40px;
-        font-size: 2em;
-        text-decoration: underline;
-        margin-bottom: .5em;
-    }
-    .Menu{
-        position: fixed;
-        background: rgba(163, 30, 204, 0.9);
-        z-index: 3;
-        top: 0;
-        left: -100vw;
-        bottom: 0;
-        width: 100vw;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        transition: .3s;
-    }
-    .Menu.is-active{
-        left: 0;
-    }
-    .Menu{
-        display: block;
-        height: auto;
-        text-align: center;
-    }
-    .header li{
-        padding: 5px;
-    }
-    .header a{
-        font-size: 25px;
-    }
-    .contenedor-foto{
-        margin: 5px;
-        padding: 5px;
-        display: flex;
-        justify-content: center;
-    }
-    .Saludo{
-        display: flex;
-        justify-content: center;
-        text-align: center;
-    }
-    h1{
-        font-size: 40px;
-    }
-    .proyecto{
-        display: block;
-        background-color: var(--color-bg-m);
-        padding-top: 10px;
-    }
-    .juegos, .cajaProyectos{
-        display: inline-block;
-        height: 100%;
-    }
-    .TicTacToe, .PiedraPapelTijera, .MemoryGame, .QuienQuiereSerMillonario, .BabyYoda, .Calculadora{
-        font-size: .7em;
-        margin: .4em 0;
-    }
-    .Marco-Dibujo{
-        width: auto;
-    }
-    .Dibujos{
-        width: 60%;
-    }
-    .contact{
-        height: auto;
-        padding: 1.5em 0;
-        text-align: center;
-        display: block;
-    }
-    .form-email button{
-        margin: 1em auto;
-        position: initial;
-    }
-    .form-email h3{
-        margin-top: 0;
-    }
-    .Contenedor-formulario{
-        padding-left: 0;
-    }
+.header ol li{
+    height: 50px;
+}
+.header a{
+    justify-content: center;
+    height: 40px;
+    font-size: 2em;
+    text-decoration: underline;
+    margin-bottom: .5em;
+}
+.Menu{
+    position: fixed;
+    background: rgba(163, 30, 204, 0.9);
+    z-index: 3;
+    top: 0;
+    bottom: 0;
+    left: -120vw;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: .3s;
+    font-size: 13px;
+}
+.Menu.is-active{
+    left: -20;
+}
+.Menu{
+    display: block;
+    height: auto;
+    text-align: center;
+}
+.header li{
+    padding: 5px;
+}
+.header a{
+    font-size: 20px;
+}
+.contenedor-foto{
+    margin: 5px;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+}
+.Saludo{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+h1{
+    font-size: 40px;
+}
+.proyecto{
+    display: block;
+    background-color: var(--color-bg-m);
+    padding-top: 10px;
+}
+.juegos, .cajaProyectos{
+    display: inline-block;
+    height: 100%;
+}
+.TicTacToe, .PiedraPapelTijera, .MemoryGame, .QuienQuiereSerMillonario, .BabyYoda, .Calculadora{
+    font-size: .7em;
+    margin: .4em 0;
+}
+.Marco-Dibujo{
+    width: auto;
+}
+.Dibujos{
+    width: 60%;
+}
+.contact{
+    height: auto;
+    padding: 1.5em 0;
+    text-align: center;
+    display: block;
+}
+.form-email button{
+    margin: 1em auto;
+    position: initial;
+}
+.form-email h3{
+    margin-top: 0;
+}
+.Contenedor-formulario{
+    padding-left: 0;
+}
 }
 
 @media screen and (max-width: 320px) {
-    .Menu{
-        display: block;
-        height: auto;
-        text-align: center;
-    }
-    .header li{
-        padding: 5px;
-    }
-    .header a{
-        font-size: 40px;
-    }
-    .contenedor-foto{
-        margin: 10px;
-        padding: 10px;
-        display: flex;
-        justify-content: center;
-        width: 90%;
-    }
-    .Saludo{
-        display: flex;
-        justify-content: center;
-        text-align: center;
-    }
-    h1{
-        font-size: 40px;
-    }
-    .proyecto{
-        display: block;
-        background-color: var(--color-bg-m);
-        padding: 1px;
-        padding-top: 10px;
-    }
-    .juegos, .cajaProyectos{
-        display: inline-block;
-        height: 100%;
-    }
-    .TicTacToe, .PiedraPapelTijera, .MemoryGame, .QuienQuiereSerMillonario, .BabyYoda, .Calculadora{
-        font-size: .7em;
-        margin: .4em 0;
-    }
-    .Marco-Dibujo{
-        width: auto;
-    }
-    .Dibujos{
-        width: 60%;
-    }
-    .contact{
-        height: auto;
-        padding: 1.5em 0;
-        text-align: center;
-        display: block;
-    }
-    .form-email button{
-        margin: 1em auto;
-        position: initial;
-    }
-    .form-email h3{
-        margin-top: 0;
-    }
-    .Contenedor-formulario{
-        padding-left: 0;
-    }
+.Menu{
+    display: block;
+    height: auto;
+    text-align: center;
+}
+.Menu{
+    position: fixed;
+    background: rgba(163, 30, 204, 0.9);
+    z-index: 3;
+    top: 0;
+    bottom: 0;
+    left: -100vw;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: .3s;
+    font-size: 13px;
+}
+.Menu.is-active{
+    left: 0;
+}
+.Menu{
+    display: block;
+    height: auto;
+    text-align: center;
+}
+.header li{
+    padding: 5px;
+}
+.header a{
+    font-size: 40px;
+}
+.contenedor-foto{
+    margin: 10px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    width: 90%;
+}
+.Saludo{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+h1{
+    font-size: 40px;
+}
+.proyecto{
+    display: block;
+    background-color: var(--color-bg-m);
+    padding: 1px;
+    padding-top: 10px;
+}
+.juegos, .cajaProyectos{
+    display: inline-block;
+    height: 100%;
+}
+.TicTacToe, .PiedraPapelTijera, .MemoryGame, .QuienQuiereSerMillonario, .BabyYoda, .Calculadora{
+    font-size: .7em;
+    margin: .4em 0;
+}
+.Marco-Dibujo{
+    width: auto;
+}
+.Dibujos{
+    width: 60%;
+}
+.contact{
+    height: auto;
+    padding: 1.5em 0;
+    text-align: center;
+    display: block;
+}
+.form-email button{
+    margin: 1em auto;
+    position: initial;
+}
+.form-email h3{
+    margin-top: 0;
+}
+.Contenedor-formulario{
+    padding-left: 0;
+}
 }
