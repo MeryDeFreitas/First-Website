@@ -412,24 +412,21 @@ h3{
     }
     .Menu{
         position: fixed;
-        background: rgba(163, 30, 204, 0.9);
+        background: rgba(99, 18, 124, 0.9);
         z-index: 3;
         top: 0;
+        bottom: 0;
         left: -100vw;
         width: 100vw;
         display: flex;
         align-items: center;
         justify-content: center;
         transition: .3s;
-        height: 0;
-        padding: 0;
+        font-size: 13px;
     }
     .Menu.is-active{
         left: 0;
-        height: 50px;
-        padding: 50px;
-    }
-    
+    } 
     .contenedor-foto{
         margin: 5px;
         padding: 5px;
