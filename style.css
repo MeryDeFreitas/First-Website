@@ -18,9 +18,9 @@ body{
     font-weight: normal;
     font-style: normal;
     font-display: block;
-  }
+}
   
-  [class^="icon-"], [class*=" icon-"] {
+[class^="icon-"], [class*=" icon-"] {
     /* use !important to prevent issues with browser extensions that change fonts */
     font-family: 'icomoon' !important;
     speak: never;
@@ -33,11 +33,29 @@ body{
     /* Better Font Rendering =========== */
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-  }
+}
   
-  .icon-menu:before {
+.icon-menu:before {
     content: "\e900";
-  }
+}
+
+.burger-button {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #260e3ada;
+    display: none;
+    /* Para centrar */
+    line-height: 40px;
+    text-align: center;
+    /* Para que el Menu nos persiga cuando hacemos scroll */
+    position: fixed;
+    z-index: 4;
+    left: 5px;
+    top: 5px;
+    /* Cambio el color del icono porque vendria siendo un "texto" */
+    color: white;
+}
 
 .header{
     background-color: var(--color-bg-m);
@@ -371,6 +389,10 @@ h3{
 }
 
 @media screen and (max-width: 767px) {
+    
+    .burger-button{
+        display: block;
+    }
     .header{
         display: block;
         height: auto;
