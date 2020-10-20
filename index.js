@@ -1,4 +1,23 @@
-var numero = 1
+//Menu de Hamburguesa
+
+const Menu = document.querySelector('.Menu');
+const burgerButton = document.querySelector('#burger-menu');
+
+// console.log(Menu)
+// console.log(burgerButton)
+
+function hideShow(){
+    if(Menu.classList.contains('is-active')){
+        Menu.classList.remove('is-active')
+    } else{
+        Menu.classList.add('is-active')
+    }
+}
+
+burgerButton.addEventListener('click', hideShow)
+
+//Mostrar Galeria de Dibujos
+let numero = 1
 
 function adelante(){
     numero++;
