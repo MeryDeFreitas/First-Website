@@ -18,6 +18,7 @@ function validation(event){
     }
 }
 
+//Convoca la funcion de MediaQuery sin tener que hacer resize
 validation(ipad);
 
 function hideShow(){
