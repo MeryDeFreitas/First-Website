@@ -11,8 +11,11 @@ const burgerButton = document.querySelector('#burger-menu');
 ipad.addListener(validation)
 
 function validation(event){
-    if(event.matches)
-    burgerButton.addEventListener('click', hideShow)
+    if(event.matches){
+        burgerButton.addEventListener('click', hideShow)
+    } else{
+        burgerButton.removeEventListener('click', hideShow)
+    }
 }
 
 function hideShow(){
