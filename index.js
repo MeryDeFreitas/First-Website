@@ -18,6 +18,8 @@ function validation(event){
     }
 }
 
+validation(ipad);
+
 function hideShow(){
     if(Menu.classList.contains('is-active')){
         Menu.classList.remove('is-active')
