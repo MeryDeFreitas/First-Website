@@ -23,7 +23,7 @@ body{
 [class^="icon-"], [class*=" icon-"] {
     /* use !important to prevent issues with browser extensions that change fonts */
     font-family: 'icomoon' !important;
-    speak: never;
+    /* speak: never; */
     font-style: normal;
     font-weight: normal;
     font-variant: normal;
@@ -517,10 +517,16 @@ h3{
 h1{
     font-size: 40px;
 }
+.tituloJuegos, p{
+    text-align: center;
+}
 .proyecto{
     display: block;
     background-color: var(--color-bg-m);
     padding-top: 10px;
+}
+.proyecto a{
+    font-size: 20px;
 }
 .juegos, .cajaProyectos{
     display: inline-block;
@@ -529,6 +535,8 @@ h1{
 .TicTacToe, .PiedraPapelTijera, .MemoryGame, .QuienQuiereSerMillonario, .BabyYoda, .Calculadora{
     font-size: .7em;
     margin: .4em 0;
+    position: relative;
+    left: 15px;
 }
 .Marco-Dibujo{
     width: auto;
@@ -603,11 +611,17 @@ h1{
 h1{
     font-size: 40px;
 }
+.tituloJuegos, p{
+    text-align: center;
+}
 .proyecto{
     display: block;
     background-color: var(--color-bg-m);
     padding: 1px;
     padding-top: 10px;
+}
+.proyecto a{
+    font-size: 20px;
 }
 .juegos, .cajaProyectos{
     display: inline-block;
@@ -616,6 +630,8 @@ h1{
 .TicTacToe, .PiedraPapelTijera, .MemoryGame, .QuienQuiereSerMillonario, .BabyYoda, .Calculadora{
     font-size: .7em;
     margin: .4em 0;
+    position: relative;
+    left: 15px;
 }
 .Marco-Dibujo{
     width: auto;
