@@ -1,10 +1,19 @@
 //Menu de Hamburguesa
 
+const ipad = window.matchMedia('screen and (max-width: 767px');
+
 const Menu = document.querySelector('.Menu');
 const burgerButton = document.querySelector('#burger-menu');
 
 // console.log(Menu)
 // console.log(burgerButton)
+
+ipad.addListener(validation)
+
+function validation(event){
+    if(event.matches)
+    burgerButton.addEventListener('click', hideShow)
+}
 
 function hideShow(){
     if(Menu.classList.contains('is-active')){
@@ -13,8 +22,6 @@ function hideShow(){
         Menu.classList.add('is-active')
     }
 }
-
-burgerButton.addEventListener('click', hideShow)
 
 //Mostrar Galeria de Dibujos
 let numero = 1
