@@ -10,8 +10,8 @@ body{
     padding: 5px;
     border: solid black 2px;
     position: absolute;
-    top: 250px;
-    left: 700px;
+    top: 50px;
+    left: 400px;
 }
 
 h1{
@@ -72,7 +72,7 @@ img{
         width: 300px;
         position: absolute;
         top: 150px;
-        left: 300px;
+        left: 200px;
     }
 }
 @media screen and (max-width: 767px) {
