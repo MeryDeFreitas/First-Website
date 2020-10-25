@@ -48,10 +48,11 @@ h3{
     background-clip: text;
     -webkit-background-clip: text;
     text-align: center;
+    font-size: 30px;
 }
 
 @media screen and (max-width: 1023px) {
-    h1, h3{
+    h1{
         display: block;
         justify-content: center;
         text-align: center;
@@ -83,8 +84,8 @@ h3{
         height: 610px;
     }
     .grid div{
-        width: 100px;
-        height: 100px;
+        width: 200px;
+        height: 200px;
     }
 }
 @media screen and (max-width: 480px) {
@@ -92,7 +93,7 @@ h3{
     display: block;
     justify-content: center;
     text-align: center;
-    font-size: 25px;
+    font-size: 20px;
     }
     .ContenedorJuego{
     width: 310px;
@@ -115,7 +116,7 @@ h3{
     display: block;
     justify-content: center;
     text-align: center;
-    font-size: 25px;
+    font-size: 20px;
     }
     .ContenedorJuego{
         position: absolute;
