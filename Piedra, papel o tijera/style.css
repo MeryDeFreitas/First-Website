@@ -9,6 +9,9 @@ body{
     margin: 20px;
     padding: 5px;
     border: solid black 2px;
+    position: absolute;
+    top: 250px;
+    left: 700px;
 }
 
 h1{
@@ -35,6 +38,11 @@ h4{
     text-align: center;
 }
 
+.Contenedorchoices, .ContenedorImagen{
+    display: flex;
+    justify-content: center;
+}
+
 .choices{
     border: none;
     margin: 4px;
@@ -44,6 +52,7 @@ h4{
     width: 100px;
     height: 20px;
     cursor: pointer;
+    display:inline-block;   
 }
 
 img{
