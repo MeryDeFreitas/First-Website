@@ -1,5 +1,5 @@
 :root{
-    --color-bg-m: #482366;
+    --color-bg-m: #3E2E41;
 }
 
 body{
@@ -43,7 +43,7 @@ body{
     width: 40px;
     height: 40px;
     border-radius: 50%;
-    background-color: #260e3ada;
+    background-color: #3E2E41;
     display: none;
     /* Para centrar */
     line-height: 40px;
@@ -77,7 +77,7 @@ body{
 
 .header a:hover{
     font-size: 22px;
-    color: rgb(218, 255, 8);
+    color: #F4B5FF;
 }
 
 .Menu{
@@ -87,6 +87,7 @@ body{
     height: 25px;
     padding: 25px;
 }
+
 .contenedor-foto{
     margin: 10px;
     padding: 10px;
@@ -155,12 +156,12 @@ h3{
 
 .proyecto a {
     font-size: 22px;
-    color: white;
+    color: #B788BF;
     text-decoration: none;
 }
 
 .proyecto a:hover{
-    color: rgb(218, 255, 8); 
+    color: #F4B5FF; 
     font-size: 25px;
 }
 
@@ -281,16 +282,16 @@ h3{
 }
 
 .h3-dibujo{
-    color: #6f4a8e;
+    color: #3E2E41;
     font-size: 28px;
 }
 
 .boton-dibujo{
     background: transparent;
-    border: 2px solid #6f4a8e;
+    border: 2px solid #3E2E41;
     border-radius: 6px;
     border: solid;
-    color: #6f4a8e;
+    color: #3E2E41;
     padding: 4px 8px;
     text-align: center;
     font-size: 16px;
@@ -338,7 +339,7 @@ h3{
 }
     
 .form-email input{
-    border-color: #6f4a8e;
+    border-color: #3E2E41;
     border-style: solid;
     border-radius: 5px;
     padding: 5px 20px 5px 25px;
@@ -354,7 +355,7 @@ h3{
     display: block;
     margin-top: 10px;
     background: white;
-    color: #6f4a8e;
+    color: #3E2E41;
     padding: 5px 0;
     border-radius: 5px;
     width: 100px;
@@ -414,7 +415,7 @@ h3{
 }
 .Menu{
     position: fixed;
-    background: rgba(99, 18, 124, 0.9);
+    background: rgba(169, 66, 159, 0.9);
     z-index: 3;
     top: 0;
     bottom: 0;
@@ -483,7 +484,7 @@ h3{
 }
 .Menu{
     position: fixed;
-    background: rgba(99, 18, 124, 0.9);
+    background: rgba(169, 66, 159, 0.9);
     z-index: 3;
     top: 0;
     bottom: 0;
@@ -576,7 +577,7 @@ h1{
 }
 .Menu{
     position: fixed;
-    background: rgba(99, 18, 124, 0.9);
+    background: rgba(169, 66, 159, 0.9);
     z-index: 3;
     top: 0;
     bottom: 0;
