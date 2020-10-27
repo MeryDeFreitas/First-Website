@@ -1,5 +1,6 @@
 let btn = document.getElementById('btn');
 let output = document.getElementById('output');
+let imagen = document.getElementById('Imagen');
 //Aqui almaceramos todos mis quotes
 let quotes = [
     '"The Pessimist Sees Difficulty In Every Opportunity. The Optimist Sees Opportunity In Every Difficulty.” – Winston Churchill', 
@@ -17,5 +18,5 @@ let quotes = [
 btn.addEventListener('click', function(){
     var randomQuote = quotes[Math.floor(Math.random() * quotes.length)]
     output.innerHTML = randomQuote;
+    imagen.classList.add('Imagen2')
 })
-
