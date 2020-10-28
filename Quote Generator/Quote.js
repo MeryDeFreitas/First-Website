@@ -18,5 +18,13 @@ let quotes = [
 btn.addEventListener('click', function(){
     var randomQuote = quotes[Math.floor(Math.random() * quotes.length)]
     output.innerHTML = randomQuote;
-    imagen.classList.add('Imagen2')
+    var seleccion = (quotes.indexOf(randomQuote));
+    console.log(seleccion)
+    if(seleccion=0){
+        imagen.classList.add('Imagen1')
+    } else if (seleccion=1){
+        imagen.classList.add('Imagen2')
+    } else{
+        imagen.classList.add('Imagen1')
+    }
 })
