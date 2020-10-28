@@ -1,7 +1,7 @@
 let btn = document.getElementById('btn');
 let output = document.getElementById('output');
 let imagen = document.getElementById('Imagen');
-//Aqui almaceramos todos mis quotes
+
 let quotes = [
     '"The Pessimist Sees Difficulty In Every Opportunity. The Optimist Sees Opportunity In Every Difficulty.” – Winston Churchill', 
     '“Don’t Let Yesterday Take Up Too Much Of Today.” – Will Rogers',
@@ -15,16 +15,21 @@ let quotes = [
     '“Knowing Is Not Enough; We Must Apply. Wishing Is Not Enough; We Must Do.” – Johann Wolfgang Von Goethe',
 ];
 
+let numero = 0;
+
 btn.addEventListener('click', function(){
     var randomQuote = quotes[Math.floor(Math.random() * quotes.length)]
     output.innerHTML = randomQuote;
-    var seleccion = (quotes.indexOf(randomQuote));
-    console.log(seleccion)
-    if(seleccion=0){
-        imagen.classList.add('Imagen1')
-    } else if (seleccion=1){
-        imagen.classList.add('Imagen2')
-    } else{
-        imagen.classList.add('Imagen1')
-    }
+    numero++
+    console.log(numero)
+    nextImage();
 })
+
+function nextImage(){
+if (numero > 2){
+    imagen.classList.add('Imagen3')
+} else if (numero > 1){
+    imagen.classList.add('Imagen2')
+} else {
+    imagen.classList.add('Imagen')
+}}
