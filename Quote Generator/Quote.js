@@ -9,10 +9,10 @@ let quotes = [
     '“It’s Not Whether You Get Knocked Down, It’s Whether You Get Up.” – Inspirational Quote By Vince Lombardi',
     '“If You Are Working On Something That You Really Care About, You Don’t Have To Be Pushed. The Vision Pulls You.” – Steve Jobs',
     '“People Who Are Crazy Enough To Think They Can Change The World, Are The Ones Who Do.” – Rob Siltanen',
-    '“Failure Will Never Overtake Me If My Determination To Succeed Is Strong Enough.” – Og Mandino',
-    '“Entrepreneurs Are Great At Dealing With Uncertainty And Also Very Good At Minimizing Risk. That’s The Classic Entrepreneur.” – Mohnish Pabrai',
-    '“We May Encounter Many Defeats But We Must Not Be Defeated.” – Maya Angelou',
-    '“Knowing Is Not Enough; We Must Apply. Wishing Is Not Enough; We Must Do.” – Johann Wolfgang Von Goethe',
+    // '“Failure Will Never Overtake Me If My Determination To Succeed Is Strong Enough.” – Og Mandino',
+    // '“Entrepreneurs Are Great At Dealing With Uncertainty And Also Very Good At Minimizing Risk. That’s The Classic Entrepreneur.” – Mohnish Pabrai',
+    // '“We May Encounter Many Defeats But We Must Not Be Defeated.” – Maya Angelou',
+    // '“Knowing Is Not Enough; We Must Apply. Wishing Is Not Enough; We Must Do.” – Johann Wolfgang Von Goethe',
 ];
 
 let numero = 0;
@@ -26,7 +26,13 @@ btn.addEventListener('click', function(){
 })
 
 function nextImage(){
-if (numero > 2){
+if (numero > 5){
+    imagen.classList.add('Imagen6')
+} else if (numero > 4){
+    imagen.classList.add('Imagen5')
+} else if (numero > 3){
+    imagen.classList.add('Imagen4')
+} else if (numero > 2){
     imagen.classList.add('Imagen3')
 } else if (numero > 1){
     imagen.classList.add('Imagen2')

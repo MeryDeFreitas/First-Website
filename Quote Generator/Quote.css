@@ -10,7 +10,7 @@ h1 {
 }
 
 .btn {
-    margin: 50px auto;
+    margin: 30px auto;
     font-size: 22px;
     background-color: #1a1a2e;
     display: flex;
@@ -19,7 +19,7 @@ h1 {
 }
 
 #output {
-    margin: 25px auto;
+    margin: 20px auto;
     font-size: 26px;
     color: white;
     text-align: center;
@@ -29,29 +29,52 @@ h1 {
     display: flex;
     justify-content: center;
     margin: 5px;
-    padding: 10px;
 }
 
 .Imagen{
-    width: 500px;
-    height: 300px;
+    width: 800px;
+    height: 400px;
     background-image: url('Wallpapers/1.jpg');
-    background-size: 500px 300px;
+    background-size: 800px 400px;
     background-repeat: no-repeat;
 }
 
 .Imagen2{
-    width: 500px;
-    height: 300px;
+    width: 800px;
+    height: 400px;
     background-image: url('Wallpapers/2.jpg');
-    background-size: 500px 300px;
+    background-size: 800px 400px;
     background-repeat: no-repeat;
 }
 
 .Imagen3{
-    width: 500px;
-    height: 300px;
+    width: 800px;
+    height: 400px;
     background-image: url('Wallpapers/3.jpg');
-    background-size: 500px 300px;
+    background-size: 800px 400px;
+    background-repeat: no-repeat;
+}
+
+.Imagen4{
+    width: 800px;
+    height: 400px;
+    background-image: url('Wallpapers/4.jpg');
+    background-size: 800px 400px;
+    background-repeat: no-repeat;
+}
+
+.Imagen5{
+    width: 800px;
+    height: 400px;
+    background-image: url('Wallpapers/5.jpg');
+    background-size: 800px 400px;
+    background-repeat: no-repeat;
+}
+
+.Imagen6{
+    width: 800px;
+    height: 400px;
+    background-image: url('Wallpapers/6.jpg');
+    background-size: 800px 400px;
     background-repeat: no-repeat;
 }
