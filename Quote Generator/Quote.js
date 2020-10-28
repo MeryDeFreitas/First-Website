@@ -20,9 +20,11 @@ let numero = 0;
 btn.addEventListener('click', function(){
     var randomQuote = quotes[Math.floor(Math.random() * quotes.length)]
     output.innerHTML = randomQuote;
+    quotes.splice(randomQuote, 1);
     numero++
     console.log(numero)
     nextImage();
+    RefreshPage();
 })
 
 function nextImage(){
@@ -39,3 +41,9 @@ if (numero > 5){
 } else {
     imagen.classList.add('Imagen')
 }}
+
+function RefreshPage(){
+    if(numero>6){
+        document.location.reload();
+    }
+}
