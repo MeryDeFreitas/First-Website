@@ -10,12 +10,13 @@ h1 {
 }
 
 .btn {
-    margin: 30px auto;
     font-size: 22px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
     background-color: #1a1a2e;
     display: flex;
     color: white;
-    font-family: 'Courier New', Courier, monospace;
+    margin: 30px auto;
 }
 
 #output {
