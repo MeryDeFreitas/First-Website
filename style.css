@@ -545,7 +545,7 @@ h1{
     display: inline-block;
     height: 100%;
 }
-.TicTacToe, .PiedraPapelTijera, .MemoryGame, .QuienQuiereSerMillonario, .BabyYoda, .Calculadora{
+.TicTacToe, .PiedraPapelTijera, .MemoryGame, .QuienQuiereSerMillonario, .BabyYoda, .Calculadora, .QuoteGenerator{
     font-size: .7em;
     margin: .4em 0;
     position: relative;
@@ -640,7 +640,7 @@ h1{
     display: inline-block;
     height: 100%;
 }
-.TicTacToe, .PiedraPapelTijera, .MemoryGame, .QuienQuiereSerMillonario, .BabyYoda, .Calculadora{
+.TicTacToe, .PiedraPapelTijera, .MemoryGame, .QuienQuiereSerMillonario, .BabyYoda, .Calculadora, .QuoteGenerator{
     font-size: .7em;
     margin: .4em 0;
     position: relative;
