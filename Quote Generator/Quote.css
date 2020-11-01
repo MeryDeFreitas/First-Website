@@ -21,7 +21,7 @@ h1 {
 
 #output {
     margin: 20px auto;
-    font-size: 26px;
+    font-size: 20px;
     color: white;
     text-align: center;
 }
@@ -78,4 +78,55 @@ h1 {
     background-image: url('Wallpapers/6.jpg');
     background-size: 800px 400px;
     background-repeat: no-repeat;
+}
+
+@media screen and (max-width: 1023px) {
+    .containerImage{
+        padding: 0 1em;
+    }
+}
+@media screen and (max-width: 767px) {
+    h1{
+    font-size: 40px;
+    }
+    .Imagen, .Imagen2, .Imagen3, .Imagen4, .Imagen5, .Imagen6{
+        width: 100%;
+        background-size: 500px 400px;
+    }
+    .btn{
+        font-size: 15px;
+    }
+    #output{
+        font-size: 20px;
+    }
+}
+@media screen and (max-width: 480px) {
+    h1{
+    font-size: 25px;
+        }
+    .Imagen, .Imagen2, .Imagen3, .Imagen4, .Imagen5, .Imagen6{
+        width: 100%;
+        background-size: 400px 300px;
+    }
+    .btn{
+        font-size: 15px;
+    }
+    #output{
+        font-size: 20px;
+    }
+}
+@media screen and (max-width: 320px) {
+    h1{
+        font-size: 20px;
+        }
+    .Imagen, .Imagen2, .Imagen3, .Imagen4, .Imagen5, .Imagen6{
+        width: 100%;
+        background-size: 300px 200px;
+        }
+    .btn{
+        font-size: 15px;
+    }
+    #output{
+        font-size: 15px;
+    }
 }
