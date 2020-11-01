@@ -34,7 +34,7 @@ let numero = 1
 
 function adelante(){
     numero++;
-    if(numero>10)
+    if(numero>11)
         numero=1
         var Dibujo=document.getElementById("Captura")
         Dibujo.src="Dibujos/Captura"+numero+".JPG";
@@ -43,7 +43,7 @@ function adelante(){
 function atras(){
     numero--;
     if(numero<1)
-        numero=10
+        numero=11
         var Dibujo=document.getElementById("Captura")
         Dibujo.src="Dibujos/Captura"+numero+".JPG";
 }
