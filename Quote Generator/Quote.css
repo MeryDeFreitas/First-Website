@@ -7,6 +7,7 @@ h1 {
     font-size: 60px;
     color: white;
     font-family: 'Courier New', Courier, monospace;
+    margin-bottom: 15px;
 }
 
 .containerBoton{
@@ -27,6 +28,7 @@ h1 {
     transition: 0.2s;
     border: solid 1px white;
     margin-top: 20px;
+    margin-bottom: 10px;
 }
 
 .btn:hover{
