@@ -3,7 +3,7 @@
 }
 
 body{
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: 'Dancing Script', cursive;
     margin: 0 auto;
     padding: 0;
 }
@@ -73,6 +73,7 @@ body{
     text-transform: uppercase;
     color: white;
     padding: 10px;
+    font-family: 'Roboto Condensed', sans-serif;
 }
 
 .header a:hover{
@@ -88,13 +89,6 @@ body{
     padding: 25px;
 }
 
-.contenedor-foto{
-    margin: 10px;
-    padding: 10px;
-    display: flex;
-    justify-content: center;
-    width: 90%;
-}
 .Saludo{
     display: flex;
     justify-content: center;
@@ -103,6 +97,18 @@ body{
     text-align: center;
 }
 
+.cover{
+    background-image: url('Cover.JPG');
+    background-size: 2000px 300px;
+    width: 2000px;
+    height: 280px;
+    background-repeat: no-repeat;
+}
+
+.contenedor-foto{
+    position: absolute;
+    top: 200px;
+}
 .foto{
     background-image: url('Foto.JPG');
     background-size: 280px 280px;
@@ -110,8 +116,8 @@ body{
     height: 280px;
     background-repeat: no-repeat;
     border-radius: 50%;
-    display: flex;
-    flex-wrap: wrap;
+    /* display: flex;
+    flex-wrap: wrap; */
     margin: 0;
     padding: 0;
 }
@@ -125,7 +131,13 @@ body{
     text-align: justify;
     flex-wrap: wrap;
     margin: 5px;
+    margin-top: 30px;
     padding: 5px;
+}
+
+p{
+    font-size: 18px;
+    font-family: 'Roboto Condensed', sans-serif;
 }
 
 h1{
@@ -133,7 +145,7 @@ h1{
     font-weight: 600;
     margin: 5px;
     padding: 5px;
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: 'Dancing Script', cursive;
     color: rgba(0, 0, 0, .2);
     background: center / cover url('universe.jpg') no-repeat;
     background-clip: text;
@@ -142,9 +154,9 @@ h1{
 }
 
 h3{
-    font-size: 30px;
+    font-size: 40px;
     font-weight: 600;
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: 'Dancing Script', cursive;
 }
 
 .proyecto{
@@ -295,7 +307,7 @@ h3{
 
 .h3-dibujo{
     color: #3E2E41;
-    font-size: 28px;
+    font-size: 40px;
 }
 
 .boton-dibujo{
@@ -377,7 +389,9 @@ h3{
 }
 
 .form-email h3{
-    font-family: 'Source Sans Pro', sans-serif; 
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 30px;
+    margin-bottom: 10px;
 }
 
 .container{
@@ -622,7 +636,7 @@ h1{
     text-align: center;
 }
 h1{
-    font-size: 40px;
+    font-size: 60px;
 }
 .tituloJuegos, p{
     text-align: center;
