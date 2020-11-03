@@ -37,6 +37,14 @@ h1 {
     transition: 1s;
 }
 
+.contenedorOutput{
+    width: 800px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-left: 350px;
+}
+
 #output {
     font-family: 'Courier New', Courier, monospace;
     margin: 20px auto;
