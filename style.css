@@ -86,7 +86,7 @@ body{
     justify-content: flex-end;
     background-color: var(--color-bg-m);
     height: 25px;
-    padding: 25px;
+    padding: 20px;
 }
 
 .Saludo{
@@ -460,7 +460,12 @@ h3{
     display: block;
     height: auto;
     text-align: center;
-    padding: 15px;
+    padding: 15
+    
+    
+    
+    
+    px;
 }
 .contenedor-foto{
     margin: 5px;
