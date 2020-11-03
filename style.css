@@ -116,8 +116,6 @@ body{
     height: 280px;
     background-repeat: no-repeat;
     border-radius: 50%;
-    /* display: flex;
-    flex-wrap: wrap; */
     margin: 0;
     padding: 0;
 }
@@ -163,7 +161,6 @@ h3{
     background-color: var(--color-bg-m);
     color: white;
     font-size: 20px;
-    /* border: 1px solid red; */
 }
 
 .proyecto a {
@@ -182,7 +179,6 @@ h3{
     height: 300px;
     position: relative;
     padding: 0;
-    /* border: solid 1px red; */
 }
 
 .cajaProyectos :hover{
@@ -298,7 +294,6 @@ h3{
 
 .Marco-Dibujo{
     width: 100%;
-    /* border: solid 1px red; */
 }
 
 .Dibujos{
