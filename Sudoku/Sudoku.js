@@ -18,10 +18,62 @@ const easy = [
   var timerRemaining;
   var lives;
   var selectedNum;
-  var selectedTile
+  var selectedTile;
   var disableSelect; 
 
   window.onload = function(){
       //Startgame function when click startgame
-      //Minuto 5:01
+    id('Start').addEventListener('click', startGame);
+  }
+
+  function startGame(){
+    //Choose board difficulty
+    let board;
+    if(id('diff-1').checked)board = easy[0];
+    else if (id('diff-2').checked)board = medium[0];
+    else board = hard[0];
+    // console.log(board)
+    
+    //Set lives to 3 and enable selecting numbers and tiles
+    lives = 3;
+    disableSelect = false;
+    id('lives').textContent = 'Lives Remaining: ' + lives;
+    //Creates board based on difficulty
+    generateBoard(board);
+  }
+
+  function generateBoard(board){
+    //Clear previous board
+    clearPrevious();
+  }
+
+  function clearPrevious(){
+    let tiles = qsa('.tiles');
+    //Remove each tile
+    for(let i = 0; i<tiles.length; i++){
+      tiles[i].remove();
+    }
+    //If there is a timer clear it
+    if(timer) clearInterval(timer);
+    //Deselect any numbers
+    for(let i = 0; i < id('number-container').children.length;i++){
+      id('number-container').children[i].classList.remove('selected');
+    }
+    //clear selected variables
+    selectedTile = null;
+    selectedNum = null;
+  }
+
+
+//Helper functions
+  function id(id){
+    return document.getElementById(id);
+  }
+
+  function qs(selector){
+    return document.querySelector(selector);
+  }
+
+  function qsa(selector){
+    return document.querySelectorAll(selector);
   }
