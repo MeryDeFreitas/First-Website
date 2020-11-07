@@ -1,0 +1,34 @@
+h1{
+    text-align: center;
+}
+
+h3{
+    text-align: center;
+}
+
+.Romance{
+    display: grid;
+    grid-template-columns: 20% 20% 20%;
+}
+.OrgulloYPrejuicio{
+    width: 800px;
+    height: 400px;
+    background-image: url('Portadas/OrgulloYPrejuicio.jpg');
+    background-size: 300px 600px;
+    background-repeat: no-repeat;
+}
+
+.TheNotebook{
+    width: 800px;
+    height: 400px;
+    background-image: url('Portadas/TheNotebook.jpg');
+    background-size: 300px 600px;
+    background-repeat: no-repeat;
+}
+.Summer{
+    width: 800px;
+    height: 400px;
+    background-image: url('Portadas/500days.jpg');
+    background-size: 300px 600px;
+    background-repeat: no-repeat;
+}
