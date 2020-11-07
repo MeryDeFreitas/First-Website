@@ -115,6 +115,10 @@ h1 {
     h1{
     font-size: 40px;
     }
+    .containerImage{
+        display: flex;
+        justify-content: center;
+    }
     .Imagen, .Imagen2, .Imagen3, .Imagen4, .Imagen5, .Imagen6{
         width: 100%;
         background-size: 500px 400px;
@@ -122,8 +126,12 @@ h1 {
     .btn{
         font-size: 15px;
     }
+    .contenedorOutput{
+        margin-left: 0;
+        width: 100%;
+        }
     #output{
-        font-size: 20px;
+        font-size: 15px;
     }
 }
 @media screen and (max-width: 480px) {
@@ -137,6 +145,10 @@ h1 {
     .btn{
         font-size: 15px;
     }
+    .contenedorOutput{
+        width: 100%;
+        margin-left: 0;
+        }
     #output{
         font-size: 20px;
     }
@@ -147,12 +159,19 @@ h1 {
         }
     .Imagen, .Imagen2, .Imagen3, .Imagen4, .Imagen5, .Imagen6{
         width: 100%;
-        background-size: 300px 200px;
-        }
+        background-size: 250px 200px;
+        margin: 0;
+    }
     .btn{
         font-size: 15px;
+        margin: 0;
+        padding: 5px;
+    }
+    .contenedorOutput{
+    width: 100%;
+    margin-left: 0;
     }
     #output{
-        font-size: 15px;
+        font-size: 12px;
     }
 }
