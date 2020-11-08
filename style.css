@@ -408,6 +408,10 @@ h3{
 .container{
     padding: 0 1em;
 }
+.contenedor-foto{
+    top: 70px;
+    left: 150px;
+}
 }
 
 @media screen and (max-width: 767px) {
@@ -458,8 +462,8 @@ h3{
     padding: 15px;
 }
 .contenedor-foto{
-position: relative;
-top: 5px;
+    top: 5px;
+    left: 150px;
 }
 .Saludo{
     display: flex;
@@ -524,8 +528,8 @@ top: 5px;
     text-align: center;
 }
 .contenedor-foto{
-    position: relative;
     top: 5px;
+    left: 100px;
     }
 .Saludo{
     display: flex;
@@ -615,8 +619,8 @@ h1{
     text-align: center;
 }
 .contenedor-foto{
-    position: relative;
     top: 5px;
+    left: 60px;
     }
 .Saludo{
     display: flex;
