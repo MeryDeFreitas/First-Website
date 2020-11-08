@@ -1,18 +1,23 @@
 body{
     font-family: 'Lobster', cursive;
-    background-color: darkgoldenrod;
+    background-color: #F4D57E;
 }
 
 h1{
     font-size: 60px;
     text-align: center;
-    color: white;
+    color: #0A000C;
 }
 
 h3{
     font-size: 30px;
     text-align: center;
-    color: white;
+    color: #5A0708;
+}
+
+.Trailer{
+    font-size: 20px;
+    color: #F27E3C;
 }
 
 .Romance{
@@ -22,10 +27,6 @@ h3{
     margin-top: 5px;
 }
 
-.Trailer{
-    font-size: 20px;
-    color: white;
-}
 .OrgulloYPrejuicio{
     width: 800px;
     height: 400px;
