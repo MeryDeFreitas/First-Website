@@ -7,6 +7,7 @@ h1{
     font-size: 60px;
     text-align: center;
     color: #0A000C;
+    margin-bottom: 5px;
 }
 
 h3{
@@ -15,16 +16,10 @@ h3{
     color: #5A0708;
 }
 
-.Trailer{
-    font-size: 20px;
-    color: #F27E3C;
-}
-
 .Romance{
     display: grid;
     grid-template-columns: 20% 20% 20%;
     justify-content: center;
-    margin-top: 5px;
 }
 
 .OrgulloYPrejuicio{
