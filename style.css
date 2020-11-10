@@ -578,7 +578,7 @@ h1{
     display: inline-block;
     height: 100%;
 }
-.TicTacToe, .PiedraPapelTijera, .MemoryGame, .QuienQuiereSerMillonario, .BabyYoda, .Calculadora, .QuoteGenerator{
+.TicTacToe, .PiedraPapelTijera, .MemoryGame, .QuienQuiereSerMillonario, .BabyYoda, .Calculadora, .QuoteGenerator, .Snake, .MeryCinema{
     font-size: .7em;
     margin: .4em 0;
     position: relative;
@@ -637,14 +637,9 @@ h1{
 .Menu.is-active{
     left: 0;
 }
-.Menu{
-    display: block;
-    height: auto;
-    text-align: center;
-}
 .contenedor-foto{
     top: 5px;
-    left: 60px;
+    left: 40px;
     }
 .Saludo{
     display: flex;
@@ -670,7 +665,7 @@ h1{
     display: inline-block;
     height: 100%;
 }
-.TicTacToe, .PiedraPapelTijera, .MemoryGame, .QuienQuiereSerMillonario, .BabyYoda, .Calculadora, .QuoteGenerator{
+.TicTacToe, .PiedraPapelTijera, .MemoryGame, .QuienQuiereSerMillonario, .BabyYoda, .Calculadora, .QuoteGenerator, .MeryCinema, .Snake{
     font-size: .7em;
     margin: .4em 0;
     position: relative;
