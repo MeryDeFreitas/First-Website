@@ -1,0 +1,85 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container{
+    display: grid;
+    grid-template: 100px 1fr 150px/ 200px 1fr; 
+    grid-gap: 10px;
+    height: 100vh;
+    grid-template-areas: "header header" "left contenido" "footer footer";
+}
+/* 
+.item{
+    background: lightblue;
+    padding: 10px;
+    border: solid 1px red;
+} */
+
+.header{
+    grid-area: header;
+    font-size: 60px;
+    font-weight: bold;
+    text-align: center;
+    color: #e05297;
+}
+
+.left{
+    grid-area: left;
+    width: 800px;
+    height: 400px;
+    background-image: url('Menu.jpg');
+    background-size: 300px 600px;
+    background-repeat: no-repeat;
+    position: relative;
+    left: 50px;
+}
+
+.contenido{
+    grid-area: contenido;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    color: #f3bad6;
+}
+
+.footer{
+    grid-area: footer;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+    background-color: #e05297;
+}
+.contact {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+    
+.form-email input{
+    border-color: #e05297;
+    border-style: solid;
+    border-radius: 5px;
+    padding: 5px 20px 5px 25px;
+    background-image: url('images/envelope.svg');
+    background-size: 15px 15px;
+    background-repeat: no-repeat;
+    background-position-y: center;
+    background-position-x: 5px;
+}
+
+.form-email button{
+    display: block;
+    margin-top: 10px;
+    background: white;
+    color: #e05297;
+    padding: 5px 0;
+    border-radius: 5px;
+    width: 100px;
+    margin-top: 10px;
+    position: relative;
+    left: 700px;
+}
