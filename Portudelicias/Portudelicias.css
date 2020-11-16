@@ -38,6 +38,12 @@ body{
     font-weight: bold;
     text-align: center;
     color: #f3bad6;
+    width: 100%;
+    height: 100%;
+    background-image: url('Foto\ 1.jpg');
+    background-size: 40% 100%;
+    background-repeat: no-repeat;
+    background-position: center;
     border: 1px solid red;
 }
 
