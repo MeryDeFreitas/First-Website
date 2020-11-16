@@ -28,6 +28,7 @@ body{
     background-image: url('Menu.jpg');
     background-size: 60% 100%;
     background-repeat: no-repeat;
+    background-position: center;
     border: 1px solid red;
 }
 
@@ -69,7 +70,8 @@ body{
     padding: 5px 0;
     border-radius: 5px;
     width: 100px;
-    margin-top: 10px;
+    position: relative;
+    left: 280px;
 }
 
 .social {
@@ -80,6 +82,15 @@ body{
     background-color: #e05297;
     color: white;
     border: 1px solid red;
+}
+
+.social-link {
+    display: inline-block;
+    width: 80px;
+    height: 80px;
+    margin: 30px;
+    background-size: 80px 80px;
+    border: solid 1px red;
 }
 
 
