@@ -136,13 +136,19 @@ nav li a:hover{
     text-align: center;
 }
 
+.Mencion{
+    margin: 4px;
+    padding: 10px;
+    box-shadow: 0 0 2px #c1bcbc;
+}
+
 .Formulario{
     margin-left: 655px;
     margin-top: -160px;
-    border: 1px solid black;
+    box-shadow: 0 0 2px #c1bcbc;
     border-radius: 6px;
     padding: 20px;
-    width: 165px;
+    width: 200px;
     text-align: center;
     font-weight: bold;
     background-color: var(--white-color);
@@ -204,7 +210,8 @@ label{
     background-color: #313131;
     color: white;
     padding: 20px;
-    margin-top: 222px;
+    margin-top: 40px;
+    flex-direction: end;
 }
 
 .option_contact{
